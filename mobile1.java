@@ -23,8 +23,8 @@ public class mobile1 {
 		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("A");
 		driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("harshi123@gmail.com");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("harshi123");
-		driver.findElement(By.xpath("//input[@type='col-md-5']")).sendKeys("29/08/1998");
-		driver.findElement(By.xpath("//div[@class='col-md-2']/input[@type='radio']")).click();
+		driver.findElement(By.cssSelector("[type='date']")).sendKeys("05/12/1998");
+		driver.findElement(By.xpath("(//input[@type='radio'])[2]")).click();
 		driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("9885678901");
 		driver.findElement(By.xpath("//textarea[@placeholder='Short Bio']")).sendKeys("hello");
 		driver.findElement(By.xpath("//button[@class='btn btn-info form-control']")).click();
