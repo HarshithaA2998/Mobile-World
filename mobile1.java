@@ -21,7 +21,7 @@ public class mobile1 {
 		driver.findElement(By.xpath("//a[@href='signup.html']")).click();
 		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Harshitha");
 		driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("A");
-		
+		driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("harshi123@gmail.com");
 	}
 
 }
