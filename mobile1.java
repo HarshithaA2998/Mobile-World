@@ -30,6 +30,8 @@ public class mobile1 {
 		driver.findElement(By.xpath("//button[@class='btn btn-info form-control']")).click();
 		Thread.sleep(2500);
 		driver.switchTo().alert().accept();
+		driver.findElement(By.xpath("//a[@type='submit']")).click();
+		driver.switchTo().alert().accept();
 	}
 
 }
