@@ -17,7 +17,8 @@ public class mobile1 {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.findElement(By.xpath("//a[@href='signup.html']")).click();
 		
 	}
 
