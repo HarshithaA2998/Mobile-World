@@ -24,6 +24,8 @@ public class mobile1 {
 		driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("harshi123@gmail.com");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("harshi123");
 		driver.findElement(By.xpath("//input[@type='date']")).sendKeys("29-08-1998");
+		driver.findElement(By.xpath("//div[@class='col-md-2']/input[@type='radio']")).click();
+		driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("9885678901");
 	}
 
 }
